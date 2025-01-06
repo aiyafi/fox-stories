@@ -1,6 +1,6 @@
 # Instagram Stories Feature for Portfolio Website
 
-This project adds an **Instagram Stories-like feature** to a portfolio website where viewers can only see the user's stories (up to 2 photos/videos). It is implemented using **React**, **Next.js**, **Tailwind CSS**, and **Supabase** for media storage, and it utilizes the `react-insta-stories` library for seamless integration.
+This project adds an **Instagram Stories-like feature** to a portfolio website where viewers can only see the user's stories (up to 2 photos/videos). It is implemented using **React**, **Next.js**, **Tailwind CSS**, and **Supabase** for media storage.
 
 # What to expect
 
