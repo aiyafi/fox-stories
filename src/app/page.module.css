@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.loader,
+.error,
+.noStories {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.loader p {
+    color: #0070f3;
+}
+
+.error p {
+    color: #e00;
+}
+
+.noStories p {
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .loader,
+    .error,
+    .noStories {
+        font-size: 1rem;
+    }
+}
