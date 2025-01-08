@@ -3,14 +3,14 @@
 import React, { useEffect, useState } from "react";
 import Stories from "react-insta-stories";
 import { supabase } from "../../utils/supabaseClient";
-import styles from "./page.module.css"; // Optional: For custom styling
-import { Story } from "../../types/supabase"; // Import the Story type
+import styles from "./page.module.css";
+import { Story } from "../../types/supabase";
 
 // Define the structure expected by react-insta-stories
 interface InstaStory {
   url: string;
   type: "image" | "video";
-  duration?: number; // Duration in milliseconds
+  duration?: number;
 }
 
 const Home: React.FC = () => {
@@ -64,7 +64,7 @@ const Home: React.FC = () => {
               return {
                 url: publicData?.publicUrl || "",
                 type,
-                duration: story.duration || 5000, // Default duration 5 seconds
+                duration: story.duration || 5000, // 5 seconds
               };
             })
           );
@@ -82,14 +82,13 @@ const Home: React.FC = () => {
     fetchStories();
   }, []);
 
-  // Optional: Customize story options
+  // Customize story options
   const storyOptions = {
-    defaultInterval: 5000, // Default duration for stories without a specific duration
-    width: 400,
-    height: 600,
+    defaultInterval: 5000,
+    width: "90vw",
+    height: "90vh",
     loop: true,
     keyboardNavigation: true,
-    // Additional options can be added here
   };
 
   return (
