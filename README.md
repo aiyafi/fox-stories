@@ -1,21 +1,21 @@
-# Instagram Stories Feature for Portfolio Website
+# 📸 Insta Stories Vibes for Your Portfolio
 
-This project adds an **Instagram Stories-like feature** to a portfolio website where viewers can only see the user's stories (up to 2 photos/videos). It is implemented using **React**, **Next.js**, **Tailwind CSS**, and **Supabase** for media storage.
+Yo! This project brings those **Insta Stories vibes** to your portfolio site. Viewers can peep your stories (up to 2 pics/vids). Built with **React**, **Next.js**, **Tailwind CSS**, and **Supabase** for storing your media.
 
-# What to expect
+# What’s Poppin’
 
 ## Features
-- Viewer's perspective Stories interface.
-- Supports up to **2 photos or videos**.
-- **Responsive design** for PC, laptop, tablet, and mobile screens.
-- **Reusable components** for easy customization.
-- Media storage and retrieval powered by **Supabase**.
+- Stories interface from the viewer's POV.
+- Up to **2 pics or vids**.
+- **Responsive AF** for all screens (PC, laptop, tablet, mobile).
+- **Customizable components** for your unique style.
+- Media storage powered by **Supabase**.
 
 ## Tech Stack
-- **React**: For building the user interface.
-- **Next.js**: For server-side rendering and routing.
-- **Tailwind CSS**: For styling.
-- **Supabase**: For storing media files (photos/videos).
-- **react-insta-stories**: For creating the Stories interface.
+- **React**: Crafting the UI.
+- **Next.js**: For that server-side magic and routing.
+- **Tailwind CSS**: Styling on point.
+- **Supabase**: Storing your media (pics/vids).
+- **react-insta-stories**: Making the Stories interface pop.
 
 ---
